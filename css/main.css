@@ -1,0 +1,46 @@
+/* https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ */
+footer {
+    clear: both;
+    position: relative;
+	padding: 10px 10px 0 10px;
+	color: white;
+	margin-top: 50px;
+	margin-bottom: 0px;
+
+ 	background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)) , url('/images/fondo_pie de pagina.jpg');
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.footer-address-icon{
+	padding-right: 10px;
+}
+
+.jumbotron {
+	background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)) , url('/images/fondo_jumbotron.jpg');
+    background-size: cover;
+	color: white;
+	margin-top: 50px;
+}
+
+.btn-reserva{
+	width: 100%;
+	margin-top: 20px;
+}
+
+.btn {
+	color: back;
+}
+
+.card-restaurante{
+	flex: 1 150px;
+	padding: 2px 2px 2px 5px;
+	margin-top: 50px;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+.tab-contect {
+	padding-top: 10px;
+}
